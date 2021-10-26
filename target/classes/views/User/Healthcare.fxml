@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="API.User.Hospital.HealthcareController">
+   <children>
+       <Label alignment="CENTER" prefHeight="36.0" prefWidth="807.0" style="-fx-background-color: #0c7d2c;" text="PLACÓWKI SłUŻBY ZDROWIA" textFill="WHITE">
+           <font>
+               <Font size="23.0" />
+           </font>
+       </Label>
+      <Label layoutX="54.0" layoutY="142.0" text="-Województwo dolnośląskie: Wojewódzki Szpital Specjalistyczny im. J. Gromkowskiego we Wrocławiu" textFill="#fffefe" />
+      <Label layoutX="54.0" layoutY="162.0" text="-Województwo kujawsko-pomorskie: Regionalny Szpital Specjalistyczny im. dr Władysława Biegańskiego w Grudziądzu" textFill="#fffefe" />
+      <Label layoutX="54.0" layoutY="262.0" text="-Województwo lubelskie: Samodzielny Publiczny Zakład Opieki Zdrowotnej w Puławach" textFill="#fffefe" />
+      <Label layoutX="54.0" layoutY="342.0" text="-Województwo lubuskie: 105. Kresowy Szpital Wojskowy z Przychodnią SP ZOZ w Żarach" textFill="#fffefe" />
+      <Label layoutX="54.0" layoutY="82.0" text="-Województwo łódzkie: Wojewódzki Specjalistyczny Szpital im. dr. Wł. Biegańskiego w Łodzi" textFill="#fffefe" />
+      <Label layoutX="54.0" layoutY="62.0" text="-Województwo małopolskie: Szpital Uniwersytecki w Krakowie" textFill="#fffefe" />
+      <Label layoutX="54.0" layoutY="42.0" text="-Województwo mazowieckie: Centralny Szpital Kliniczny MSWiA w Warszawie " textFill="#fffefe" />
+      <Label layoutX="54.0" layoutY="102.0" text="-Województwo opolskie: Samodzielny Publiczny Zespół Opieki Zdrowotnej w Kędzierzynie-Koźlu" textFill="#fffefe" />
+      <Label layoutX="54.0" layoutY="202.0" text="-Województwo podkarpackie: Centrum Medyczne w Łańcucie" textFill="#fffefe" />
+      <Label layoutX="54.0" layoutY="122.0" text="-Województwo podlaskie: Samodzielny Publiczny Zakład Opieki Zdrowotnej MSWiA w Białymstoku " textFill="#fffefe" />
+      <Label layoutX="54.0" layoutY="322.0" text="-Województwo pomorskie: 7. Szpital Marynarki Wojennej w Gdańsku" textFill="#fffefe" />
+      <Label layoutX="54.0" layoutY="182.0" text="-Województwo śląskie: Samodzielny Publiczny Zakład Opieki Zdrowotnej MSWiA w Katowicach" textFill="#fffefe" />
+      <Label layoutX="54.0" layoutY="222.0" text="-Województwo świętokrzyskie: Powiatowy Zakład Opieki Zdrowotnej w Starachowicach" textFill="#fffefe" />
+      <Label layoutX="54.0" layoutY="242.0" text="-Województwo warmińsko-mazurskie: Szpital w Ostródzie" textFill="#fffefe" />
+      <Label layoutX="54.0" layoutY="282.0" text="-Województwo wielkopolskie: Wielospecjalistyczny Szpital Miejski im. Józefa Strusia z Zakładem Opiekuńczo-Leczniczym w Poznaniu" textFill="#fffefe" />
+      <Label layoutX="54.0" layoutY="302.0" text="-Województwo zachodniopomorskie: Samodzielny Publiczny Wojewódzki Szpital Zespolony w Szczecinie" textFill="#fffefe" />
+       <Button alignment="CENTER" layoutX="247.0" layoutY="364.0" mnemonicParsing="false" onAction="#back" prefHeight="28.0" prefWidth="317.0" style="-fx-background-color: #0c7d2c;" text="Powrót" textAlignment="CENTER" textFill="WHITE">
+           <font>
+               <Font size="15.0" />
+           </font>
+       </Button>
+   </children>
+
+</AnchorPane>

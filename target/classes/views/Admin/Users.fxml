@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="API.Admin.Users.UsersController">
+   <children>
+      <Label alignment="CENTER" layoutX="-2.0" prefHeight="103.0" prefWidth="807.0" style="-fx-background-color: #0c7d2c;" text="UŻYTKOWNICY" textFill="WHITE">
+         <font>
+            <Font size="23.0" />
+         </font>
+      </Label>
+      <Button alignment="CENTER" layoutX="236.0" layoutY="135.0" mnemonicParsing="false" onAction="#addUser" prefHeight="50.0" prefWidth="320.0" style="-fx-background-color: #0c7d2c;" text="Dodaj użytkownika" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" contentDisplay="CENTER" layoutX="236.0" layoutY="200.0" mnemonicParsing="false" onAction="#displayUsers" prefHeight="50.0" prefWidth="320.0" style="-fx-background-color: #0c7d2c;" text="Wyświetl użytkowników" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="236.0" layoutY="268.0" mnemonicParsing="false" onAction="#sendMessage" prefHeight="50.0" prefWidth="320.0" style="-fx-background-color: #0c7d2c;" text="Wyślij wiadomość" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="236.0" layoutY="336.0" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="320.0" style="-fx-background-color: #0c7d2c;" text="Powrót" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Label fx:id="permission" alignment="CENTER" layoutX="2.0" layoutY="103.0" prefHeight="47.0" prefWidth="800.0" text="Nie masz uprawnień!" textAlignment="CENTER" textFill="#e80000" visible="false">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

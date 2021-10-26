@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.scene.text.Font?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="API.Admin.Infected.AddToInfectedController"
+            prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #000000;" >
+
+    <ComboBox fx:id="comboBox" layoutX="233.0" layoutY="250.0" prefHeight="25.0" prefWidth="335.0" />
+    <Button layoutX="78.0" layoutY="434.0" mnemonicParsing="false" onAction="#addToInfected" prefHeight="37.0" prefWidth="240.0" style="-fx-background-color: #0c7d2c;" text="Dodaj do zarażonych" textFill="WHITE">
+        <font>
+            <Font size="16.0" />
+        </font>
+    </Button>
+    <Label fx:id="label" contentDisplay="CENTER" layoutX="334.0" layoutY="175.0" text="Dodano do zarażonych!" textFill="#1bd027" visible="false">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Label alignment="CENTER" layoutX="-2.0" layoutY="1.0" prefHeight="91.0" prefWidth="800.0" text="DODAWANIE UŻYTKOWNIKA DO ZARAŻONYCH" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="16.0" />
+        </font>
+    </Label>
+    <Label layoutX="343.0" layoutY="209.0" text="Wybierz PESEL" textFill="WHITE">
+        <font>
+            <Font size="17.0" />
+        </font>
+    </Label>
+    <Label fx:id="label2" contentDisplay="CENTER" layoutX="276.0" layoutY="185.0" text="Użytkownik o wybranym PESELu już nie żyje" textFill="#bf2323" visible="false">
+        <font>
+            <Font size="14.0" />
+        </font>
+    </Label>
+    <Button layoutX="498.0" layoutY="434.0" mnemonicParsing="false" onAction="#back" prefHeight="37.0" prefWidth="240.0" style="-fx-background-color: #0c7d2c;" text="Powrót" textFill="WHITE">
+        <font>
+            <Font size="16.0" />
+        </font>
+    </Button>
+</AnchorPane>

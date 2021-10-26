@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="API.User.Polls.PollsController">
+    <children>
+    <Label alignment="CENTER" layoutX="-2.0" prefHeight="103.0" prefWidth="807.0" style="-fx-background-color: #0c7d2c;" text="ANKIETY" textFill="WHITE">
+        <font>
+            <Font size="23.0" />
+        </font>
+    </Label>
+    <Button alignment="CENTER" layoutX="236.0" layoutY="318.0" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="320.0" style="-fx-background-color: #0c7d2c;" text="Powrót" textAlignment="CENTER" textFill="WHITE">
+        <font>
+            <Font size="15.0" />
+        </font>
+    </Button>
+      <Button alignment="CENTER" layoutX="236.0" layoutY="150.0" mnemonicParsing="false" onAction="#shopping" prefHeight="50.0" prefWidth="320.0" style="-fx-background-color: #0c7d2c;" text="Ankiety zdrowotne" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button alignment="CENTER" layoutX="236.0" layoutY="215.0" mnemonicParsing="false" onAction="#health" prefHeight="50.0" prefWidth="320.0" style="-fx-background-color: #0c7d2c;" text="Ankiety zakupowe" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://remotemysql.com:3306/USERNAME</property>
+        <property name="hibernate.connection.username">USERNAMAE</property>
+        <property name="hibernate.connection.password">PASSWORD</property>
+
+         <mapping class="Entities.User"/>
+         <mapping class="Entities.Message"/>
+    </session-factory>
+</hibernate-configuration>

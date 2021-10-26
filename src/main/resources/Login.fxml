@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="API.Login.LoginController">
+
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="5.0" maxWidth="1.7976931348623157E308" prefHeight="70.0" prefWidth="802.0" style="-fx-font-size: 25;" text="COVID-INFO" textAlignment="CENTER" textFill="WHITE">
+<font>
+   <Font size="31.0" />
+</font>
+
+      <padding>
+   <Insets bottom="20.0" />
+</padding>
+</Label>
+   <Label alignment="CENTER" contentDisplay="CENTER" layoutX="206.0" layoutY="197.0" maxWidth="1.7976931348623157E308" prefHeight="27.0" prefWidth="400.0" style="-fx-font-size: 20;" text="Logowanie" textAlignment="CENTER" textFill="WHITE">
+      <font>
+         <Font name="Bodoni MT Bold" size="39.0" />
+      </font>
+      <padding>
+         <Insets bottom="20.0" />
+      </padding>
+   </Label>
+   <TextField fx:id="pesel" layoutX="143.0" layoutY="270.0" prefHeight="25.0" prefWidth="516.0" promptText="Login" style="-fx-background-color: #000000; -fx-border-color: #0c7d2c;" />
+   <PasswordField fx:id="password" layoutX="143.0" layoutY="314.0" prefHeight="25.0" prefWidth="516.0" promptText="Hasło" style="-fx-background-color: #000000; -fx-border-color: #0c7d2c;" />
+   <Button layoutX="406.0" layoutY="361.0" mnemonicParsing="false" onAction="#registrationForm" prefHeight="37.0" prefWidth="253.0" style="-fx-background-color: #0c7d2c;" text="Zarejestruj" textFill="WHITE">
+      <font>
+         <Font size="16.0" />
+      </font></Button>
+   <Button layoutX="143.0" layoutY="361.0" mnemonicParsing="false" onAction="#login" prefHeight="37.0" prefWidth="253.0" style="-fx-background-color: #0c7d2c;" text="Zaloguj" textFill="WHITE">
+      <font>
+         <Font size="16.0" />
+      </font>
+      </Button>
+   <Label fx:id="warning" alignment="CENTER" layoutX="100.0" layoutY="233.0" prefHeight="37.0" prefWidth="595.0" text="Podany uzytkownik nie istnieje! " textFill="#da0c0c" visible="false" />
+   <ImageView disable="true" fitHeight="139.0" fitWidth="200.0" layoutX="307.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+      <image>
+         <Image url="@images/money.jpg" />
+      </image>
+   </ImageView>
+</AnchorPane>

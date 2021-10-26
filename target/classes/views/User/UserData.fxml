@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="API.User.UserData.UserDataController">
+    <children>
+        <Label alignment="CENTER" layoutX="-2.0" layoutY="1.0" prefHeight="54.0" prefWidth="800.0" text="TWOJE DANE" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font size="17.0" />
+            </font>
+        </Label>
+                <Label fx:id="lastname" layoutX="290.0" layoutY="132.0" prefWidth="200.0" style="-fx-background-color: #615c5c; -fx-border-color: #0c7d2c;" text="Nazwisko" />
+                <Label fx:id="pesel" layoutX="290.0" layoutY="92.0" prefWidth="200.0" style="-fx-background-color: #615c5c; -fx-border-color: #0c7d2c;" text="PESEL" />
+        <Button alignment="CENTER" layoutX="230.0" layoutY="371.0" mnemonicParsing="false" onAction="#back" prefHeight="50.0" prefWidth="320.0" style="-fx-background-color: #0c7d2c;" text="Powrót" textAlignment="CENTER" textFill="WHITE">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Button>
+      <Label fx:id="name" layoutX="290.0" layoutY="112.0" prefWidth="200.0" style="-fx-background-color: #615c5c; -fx-border-color: #0c7d2c;" text="Imie" />
+      <Label fx:id="region" layoutX="290.0" layoutY="152.0" prefWidth="200.0" style="-fx-background-color: #615c5c; -fx-border-color: #0c7d2c;" text="Województwo" />
+      <Label fx:id="city" layoutX="290.0" layoutY="172.0" prefWidth="200.0" style="-fx-background-color: #615c5c; -fx-border-color: #0c7d2c;" text="Miasto" />
+      <Label fx:id="district" layoutX="290.0" layoutY="192.0" prefWidth="200.0" style="-fx-background-color: #615c5c; -fx-border-color: #0c7d2c;" text="Powiat" />
+      <Label fx:id="community" layoutX="290.0" layoutY="212.0" prefWidth="200.0" style="-fx-background-color: #615c5c; -fx-border-color: #0c7d2c;" text="Gmina" />
+      <Label fx:id="postcode" layoutX="290.0" layoutY="232.0" prefWidth="200.0" style="-fx-background-color: #615c5c; -fx-border-color: #0c7d2c;" text="Kod pocztowy" />
+      <Label fx:id="street" layoutX="290.0" layoutY="252.0" prefWidth="200.0" style="-fx-background-color: #615c5c; -fx-border-color: #0c7d2c;" text="Ulica" />
+      <Label fx:id="houseNr" layoutX="290.0" layoutY="271.0" prefWidth="200.0" style="-fx-background-color: #615c5c; -fx-border-color: #0c7d2c;" text="Numer domu" />
+    </children>
+</AnchorPane>

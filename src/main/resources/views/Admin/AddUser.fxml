@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="500.0" prefWidth="800.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="API.Admin.Users.AddUserController">
+   <children>
+      <TextField fx:id="name" layoutX="240.0" layoutY="30.0" prefHeight="25.0" prefWidth="500.0" style="-fx-background-color: #000000; -fx-border-color: #0c7d2c;" AnchorPane.rightAnchor="62.0" />
+      <TextField fx:id="lastname" layoutX="240.0" layoutY="70.0" prefWidth="500.0" style="-fx-background-color: #000000; -fx-border-color: #0c7d2c;" AnchorPane.rightAnchor="62.0" />
+      <TextField fx:id="pesel" layoutX="240.0" layoutY="110.0" prefWidth="500.0" style="-fx-background-color: #000000; -fx-border-color: #0c7d2c;" AnchorPane.rightAnchor="62.0" />
+      <TextField fx:id="region" layoutX="240.0" layoutY="150.0" prefWidth="500.0" style="-fx-background-color: #000000; -fx-border-color: #0c7d2c;" AnchorPane.rightAnchor="62.0" />
+      <TextField fx:id="city" layoutX="240.0" layoutY="190.0" prefWidth="500.0" style="-fx-background-color: #000000; -fx-border-color: #0c7d2c;" AnchorPane.rightAnchor="62.0" />
+      <TextField fx:id="district" layoutX="240.0" layoutY="230.0" prefWidth="500.0" style="-fx-background-color: #000000; -fx-border-color: #0c7d2c;" AnchorPane.rightAnchor="62.0" />
+      <TextField fx:id="community" layoutX="240.0" layoutY="270.0" prefWidth="500.0" style="-fx-background-color: #000000; -fx-border-color: #0c7d2c;" AnchorPane.rightAnchor="62.0" />
+      <TextField fx:id="postcode" layoutX="240.0" layoutY="310.0" prefWidth="500.0" style="-fx-background-color: #000000; -fx-border-color: #0c7d2c;" AnchorPane.rightAnchor="62.0" />
+      <TextField fx:id="street" layoutX="240.0" layoutY="350.0" prefWidth="500.0" style="-fx-background-color: #000000; -fx-border-color: #0c7d2c;" AnchorPane.rightAnchor="62.0" />
+      <TextField fx:id="houseNr" layoutX="240.0" layoutY="390.0" prefWidth="500.0" style="-fx-background-color: #000000; -fx-border-color: #0c7d2c;" AnchorPane.rightAnchor="62.0" />
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="30.0" prefHeight="30.0" prefWidth="100.0" text="Imie" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="190.0" prefHeight="30.0" prefWidth="100.0" text="Miasto" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="230.0" prefHeight="30.0" prefWidth="100.0" text="Powiat" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="270.0" prefHeight="30.0" prefWidth="100.0" text="Gmina" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="310.0" prefHeight="30.0" prefWidth="130.0" text="Kod pocztowy" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="350.0" prefHeight="30.0" prefWidth="100.0" text="Ulica" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="390.0" prefHeight="30.0" prefWidth="112.0" text="Numer domu" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="150.0" prefHeight="30.0" prefWidth="130.0" text="Województwo" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="110.0" prefHeight="30.0" prefWidth="100.0" text="PESEL" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="50.0" layoutY="70.0" prefHeight="30.0" prefWidth="100.0" text="Nazwisko" textAlignment="CENTER" textFill="#fffefe">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+       <Button layoutX="238.0" layoutY="434.0" mnemonicParsing="false" onAction="#addUser" prefHeight="37.0" prefWidth="240.0" style="-fx-background-color: #0c7d2c;" text="Zatwierdź" textFill="WHITE">
+           <font>
+               <Font size="16.0" />
+           </font>
+       </Button>
+       <Button layoutX="498.0" layoutY="434.0" mnemonicParsing="false" onAction="#back" prefHeight="37.0" prefWidth="240.0" style="-fx-background-color: #0c7d2c;" text="Powrót" textFill="WHITE">
+           <font>
+               <Font size="16.0" />
+           </font>
+       </Button>
+      <Label fx:id="peselExist" alignment="CENTER" layoutX="5.0" layoutY="5.0" prefHeight="27.0" prefWidth="789.0" text="Podany pesel już istnieje! " textFill="#da0c0c" visible="false" />
+      <Label fx:id="created" alignment="CENTER" layoutX="5.0" layoutY="5.0" prefHeight="27.0" prefWidth="789.0" text="Utworzono użytkownika!" textFill="#51d90d" visible="false" />
+
+   </children>
+</AnchorPane>
